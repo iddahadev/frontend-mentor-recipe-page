@@ -28,7 +28,8 @@
   --font-size-16: 1rem;
   --font-size-20: 1.25rem;
   --font-size-28: 1.75rem;
-  --font-size-36: 2rem;
+  --font-size-36: 2.25rem;
+  --font-size-40: 2.5rem;
 
   /* Font Families */
   --font-family-title: "Young Serif", serif;
@@ -51,9 +52,6 @@ body,
 h1,
 h2,
 p,
-dd,
-dl,
-dt,
 ul,
 ol {
   margin: 0;
@@ -62,7 +60,8 @@ ol {
 
 h1,
 h2 {
-  font-family: "Young Serif", serif;
+  font-family: var(--font-family-title);
+  font-weight: 400;
   line-height: 1;
 }
 
