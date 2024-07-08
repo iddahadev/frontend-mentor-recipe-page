@@ -18,25 +18,27 @@
       name="description"
       content="This is the Recipe Page challenge from Frontend Mentor"
     />
+    <link href="./assets/styles/index.css" rel="stylesheet" />
   </head>
   <body>
     <main>
-      <article>
+      <article class="recipe">
         <img
+          class="recipe__image"
           src="./assets/images/image-omelette.jpeg"
           alt="Delicious omelette stuffed with vegetables"
         />
-        <div>
-          <h1>Simple Omelette Recipe</h1>
-          <p>
+        <div class="recipe__content-wrapper">
+          <h1 class="recipe__name">Simple Omelette Recipe</h1>
+          <p class="recipe__description">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
 
-          <section>
+          <section class="recipe__section recipe__preparation">
             <h2>Preparation time</h2>
-            <ul>
+            <ul class="recipe__list">
               <li>
                 <div>
                   <strong>Total:</strong> Approximately
@@ -58,9 +60,9 @@
             </ul>
           </section>
 
-          <section>
+          <section class="recipe__section recipe__ingredients">
             <h2>Ingredients</h2>
-            <ul>
+            <ul class="recipe__list">
               <li>2-3 large eggs</li>
               <li>Salt, to taste</li>
               <li>Pepper, to taste</li>
@@ -71,11 +73,11 @@
             </ul>
           </section>
 
-          <hr />
+          <hr class="recipe__section-separator" />
 
-          <section>
+          <section class="recipe__section recipe__instructions">
             <h2>Instructions</h2>
-            <ol>
+            <ol class="recipe__list recipe__instructions__list">
               <li>
                 <div>
                   <strong>Beat the eggs:</strong> In a bowl, beat the eggs with
@@ -120,9 +122,9 @@
             </ol>
           </section>
 
-          <hr />
+          <hr class="recipe__section-separator" />
 
-          <section>
+          <section class="recipe__section recipe__nutrition">
             <h2>Nutrition</h2>
             <p>
               The table below shows nutritional values per serving without the
@@ -130,21 +132,27 @@
             </p>
             <table>
               <tbody>
-                <tr>
-                  <th scope="row">Calories</th>
-                  <td>277kcal</td>
+                <tr class="recipe__nutrition-item">
+                  <th scope="row" class="recipe__nutrition-item__label">
+                    Calories
+                  </th>
+                  <td class="recipe__nutrition-item__value">277kcal</td>
                 </tr>
-                <tr>
-                  <th scope="row">Carbs</th>
-                  <td>0g</td>
+                <tr class="recipe__nutrition-item">
+                  <th scope="row" class="recipe__nutrition-item__label">
+                    Carbs
+                  </th>
+                  <td class="recipe__nutrition-item__value">0g</td>
                 </tr>
-                <tr>
-                  <th scope="row">Protein</th>
-                  <td>20g</td>
+                <tr class="recipe__nutrition-item">
+                  <th scope="row" class="recipe__nutrition-item__label">
+                    Protein
+                  </th>
+                  <td class="recipe__nutrition-item__value">20g</td>
                 </tr>
-                <tr>
-                  <th scope="row">Fat</th>
-                  <td>22g</td>
+                <tr class="recipe__nutrition-item">
+                  <th scope="row" class="recipe__nutrition-item__label">Fat</th>
+                  <td class="recipe__nutrition-item__value">22g</td>
                 </tr>
               </tbody>
             </table>

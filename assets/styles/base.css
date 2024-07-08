@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("../fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  /* Primary colors */
+  --color-brandy-red: #854632;
+  --color-dark-raspberry: #7a284e;
+
+  /* Neutral colors */
+  --color-white: #fff;
+  --color-snow: #fff7fb;
+  --color-eggshell: #f3e5d7;
+  --color-white-coffee: #e3ddd7;
+  --color-wenge-brown: #5f564d;
+  --color-dark-charcoal: #312e2c;
+
+  /* Font sizes */
+  --font-size-16: 1rem;
+  --font-size-20: 1.25rem;
+  --font-size-28: 1.75rem;
+  --font-size-36: 2rem;
+
+  /* Font Families */
+  --font-family-title: "Young Serif", serif;
+  --font-family-copy: Outfit, sans-serif;
+
+  line-height: 1.5;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+p,
+dd,
+dl,
+dt,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  border-top: 1px solid var(--color-white-coffee);
+}
+
+ol,
+ul {
+  list-style: none;
+}
