@@ -122,11 +122,13 @@ ul.recipe__list > li::before {
 }
 
 .recipe__nutrition-item__label {
+  height: 1.5rem;
   flex: 1;
   font-weight: 400;
 }
 
 .recipe__nutrition-item__value {
+  height: 1.5rem;
   flex: 1;
   font-weight: bold;
   color: var(--color-brandy-red);
